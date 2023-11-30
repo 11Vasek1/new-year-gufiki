@@ -8,7 +8,7 @@ function App() {
     <div className="section">
       <div className="back-image"></div>
       <div className="container">
-        <img src="./src/assets/title.png" className="app__title"/>
+        <img src="./title.png" className="app__title"/>
         <Cards />
       </div>
     </div>
