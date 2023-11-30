@@ -1,0 +1,14 @@
+@import 'colors.scss';
+
+.close-btn{
+  border-radius: 8px;
+  border-color: red;
+  box-shadow: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  background: white;
+  outline: revert;
+  padding: 8px;
+  border: 1px solid $grey;
+}

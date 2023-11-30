@@ -1,0 +1,18 @@
+@import '../ui/ui.scss';
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  margin: auto;
+  width: 780px;
+  position: relative;
+
+  border: $border;
+  border-top: none;
+  border-left: none;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}

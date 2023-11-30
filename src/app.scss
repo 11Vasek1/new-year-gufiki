@@ -1,0 +1,29 @@
+.app {
+  &__title{
+    max-width: 710px;
+    width: 100%;
+
+    margin-bottom: 70px;
+
+    @media screen and (max-width: 1200px) {
+      margin-bottom: 40px;
+    }
+
+    @media screen and (max-width: 500px) {
+      margin-bottom: 10vw;
+    }
+  }
+}
+
+.back-image{
+  position: absolute;
+  top: 50px;
+  height: 76px;
+  width: 100%;
+  background-image: url(./src/assets/image.png);
+  background-size: contain;
+
+  @media screen and (max-width: 1200px) {
+    height: 40px;
+  }
+}
